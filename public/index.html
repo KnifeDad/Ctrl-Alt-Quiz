@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ctrl+Alt+Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="steam-container">
+        <div class="gear-decoration"></div>
+        <div class="main-content">
+            <h1>Ctrl+Alt+Quiz</h1>
+            <div id="quiz-container">
+                <div class="brass-plate">
+                    <div id="question" class="question-text"></div>
+                </div>
+                <div class="button-container">
+                    <button class="answer-btn steampunk-btn"></button>
+                    <button class="answer-btn steampunk-btn"></button>
+                    <button class="answer-btn steampunk-btn"></button>
+                    <button class="answer-btn steampunk-btn"></button>
+                </div>
+                <button id="next-btn" class="steampunk-btn next-btn" onclick="nextQuestion()">Next Question</button>
+                <div id="explanation" class="brass-plate"></div>
+            </div>
+            <div class="score-container">
+                <div class="brass-plate">
+                    <p>Current Score: <span id="score">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
